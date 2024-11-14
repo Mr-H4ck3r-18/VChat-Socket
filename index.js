@@ -2,7 +2,7 @@ import { Server } from 'socket.io';
 
 const io = new Server(9000, {
     cors: {
-        origin: "http://localhost:3000"
+        origin: ["http://localhost:3000", 'https://vchat-72ae6.web.app/']
     }
 });
 
