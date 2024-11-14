@@ -2,7 +2,7 @@ import { Server } from 'socket.io';
 
 const io = new Server(9000, {
     cors: {
-        origin: "https://vchat-socket.onrender.com"
+        origin: "http://localhost:3000"
     }
 });
 
